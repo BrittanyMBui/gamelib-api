@@ -3,11 +3,10 @@ const controllers = require('../controllers');
 
 // Current Path = '/api/v1/games'
 
-
 // Game Index
 router.get('/', controllers.games.index);
 
-//Game Show
+// Game Show
 router.get('/:id', controllers.games.show);
 
 // Game Create
